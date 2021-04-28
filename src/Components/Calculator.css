@@ -1,0 +1,57 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  row-gap: 5px;
+  column-gap: 5px;
+  padding: 18px;
+  border-radius: 20px;
+  background: rgb(26, 0, 58);
+  box-shadow: 2px 2px 5px rgb(13, 1, 19), 10px 20px 30px rgba(0, 0, 0, 1),
+  inset 0px 1px 0px rgba(160, 160, 160, 0.3),
+  inset 0px 0px 3px rgba(119, 119, 119, 0.5);
+  width: 40%;
+  height: 55%;
+  position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+  .calculator {
+    padding: 15px;
+    width: 45%;
+    height: 52%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .calculator {
+    padding: 13px;
+    width: 55%;
+    height: 50%;
+  }
+}
+/* @media screen and (max-width: 750px) {
+  .calculator {
+    padding: 12px;
+    width: 55%;
+    height: 55%;
+  }
+} */
+
+
+@media screen and (max-width: 750px) {
+  .calculator {
+    padding: 12px;
+    width: 55%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .calculator {
+    padding: 12px;
+    width: 60%;
+    height: 70%;
+
+  }
+}

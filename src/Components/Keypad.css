@@ -1,0 +1,90 @@
+.zero {
+  grid-column: 1/5;
+}
+
+.col1 {
+  grid-column: 1/2;
+}
+
+.col2 {
+  grid-column: 2/3;
+}
+
+.col3 {
+  grid-column: 3/4;
+}
+
+.col4 {
+  grid-column: 4/5;
+}
+
+button {
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(222, 129, 251, 1) 0%,
+    rgb(201, 73, 208) 100%
+  );
+  box-shadow: 0px 3px 0px rgb(68, 23, 70), 0px 3px 15px rgba(0, 0, 0, 0.4),
+  inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+  inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  color: ivory;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: .5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(229, 162, 250, 1) 0%,
+    rgba(199, 111, 204, 1) 100%
+  );
+}
+
+button:active {
+  background: linear-gradient(
+    90deg,
+    rgb(201, 73, 208) 0%,
+    rgba(222, 129, 251, 1) 100%
+  );
+  box-shadow: 0px 1px 0px rgb(68, 23, 70), 0px 0.5px 6px rgba(0, 0, 0, 0.4),
+  inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+  inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  transform: translate(0, 2px);
+  transition: all 0.2s ease-in-out;
+}
+
+.operator,
+.misc {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 240, 1) 0%,
+    rgba(221, 221, 205, 1) 100%
+  );
+  box-shadow: 0px 3px 0px rgb(179, 177, 179), 0px 3px 15px rgba(0, 0, 0, 0.4);
+  color: palevioletred;
+}
+
+.operator:hover,
+.misc:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(241, 241, 225, 1) 100%
+  );
+}
+
+.operator:active ,
+.misc:active {
+  background: linear-gradient(
+    90deg,
+    rgb(221, 221, 205, 1) 0%,
+    rgba(255, 255, 240, 1) 100%
+  );
+  box-shadow: 0px 1px 0px rgb(179, 177, 179), 0px 0.5px 6px rgba(0, 0, 0, 0.4);
+}
