@@ -46,10 +46,7 @@
 @media screen and (max-height: 360px) and (max-width: 740px) {
   .screen{
     font-size: 2.5em;
-  }
-
-  .screen p{
-    margin-bottom: 1px;
+    align-items: center;
   }
 }
 
