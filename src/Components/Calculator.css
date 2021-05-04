@@ -64,3 +64,9 @@
 
   }
 }
+
+@media screen and (max-height: 360px) and (max-width: 740px) {
+  .calculator {
+    width: 65%;
+  }
+}

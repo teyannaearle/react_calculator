@@ -37,10 +37,19 @@
   }
 }
 
-@media screen and (max-height: 360px) and (max-width: 740px) {
-  .screen {
-    align-items: flex-start;
+@media screen and (max-height: 360px) {
+  .screen{
     font-size: 2.5em;
+  }
+}  
+
+@media screen and (max-height: 360px) and (max-width: 740px) {
+  .screen{
+    font-size: 2.5em;
+  }
+
+  .screen p{
+    margin-bottom: 1px;
   }
 }
 
