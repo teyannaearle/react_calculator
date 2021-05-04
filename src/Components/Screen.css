@@ -25,6 +25,13 @@
     font-size: 4em;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .screen{
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
 @media screen and (max-height: 450px) {
   .screen {
     font-size: 3em;
