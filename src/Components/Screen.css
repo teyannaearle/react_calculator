@@ -29,7 +29,6 @@
 @media screen and (max-width: 360px) {
   .screen{
     align-items: center;
-    justify-content: flex-end;
   }
 }
 @media screen and (max-height: 450px) {
@@ -38,8 +37,9 @@
   }
 }
 
-@media screen and (max-height: 300px) {
+@media screen and (max-height: 300px) and (max-width: 360px) {
   .screen {
+    align-items: flex-start;
     font-size: 2.5em;
   }
 }
