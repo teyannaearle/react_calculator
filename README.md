@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+[![calcGiphy.gif](https://s3.gifyu.com/images/calcGiphy.gif)](https://gifyu.com/image/5Ix6)
 
 ## Available Scripts
 
