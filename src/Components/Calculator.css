@@ -30,14 +30,6 @@
     height: 50%;
   }
 }
-/* @media screen and (max-width: 750px) {
-  .calculator {
-    padding: 12px;
-    width: 55%;
-    height: 55%;
-  }
-} */
-
 
 @media screen and (max-width: 750px) {
   .calculator {
