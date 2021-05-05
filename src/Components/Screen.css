@@ -18,6 +18,10 @@
   width: 100%;
   height: 90%;
   font-family: "Digital-7";
+  
+}
+.screen p {
+  margin-bottom: .03em;
 }
 
 @media screen and (max-width: 850px) {
