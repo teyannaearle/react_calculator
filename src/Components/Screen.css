@@ -20,9 +20,6 @@
   font-family: "Digital-7";
   
 }
-.screen p {
-  margin-bottom: .03em;
-}
 
 @media screen and (max-width: 850px) {
   .screen {
@@ -54,3 +51,9 @@
   }
 }
 
+@media screen and (max-width: 360px) and (max-height: 740px) {
+  .screen{
+    font-size: 2em;
+    align-items: center;
+  }
+}
