@@ -11,19 +11,19 @@
 
 ---
 
-#### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 ### To run on your local machine:
 
 
-**```git clone <<URLGoesHere>>``` to clone repository to your local machine.**
+**```git clone <<URLGoesHere>>```** to clone this repository to your local machine.
 
-**```cd react_calculator``` to enter the calulator's directory.**
+**```cd react_calculator```** to enter the calculator's directory.
 
-**```npm install```to install dependencies.**
+**```npm install```** to install dependencies.
 
-**```npm start``` to run the calculator.**
+**```npm start```** to run the calculator.
 
 
 # ENJOY!
