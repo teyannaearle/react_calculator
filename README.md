@@ -5,7 +5,7 @@
 
 **Add, subtract, multiply and divide to your heart's content :nerd_face:**
 
-[Click Here For Live Version](https://lucid-fermi-b4f2f7.netlify.app/)
+[Click Here For Live Version](https://teyannas-calculator.netlify.app/)
 
 ![calculator giphy](https://github.com/teyannaearle/react_calculator/blob/main/assets/calcGiphy.gif)
 
