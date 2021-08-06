@@ -2,9 +2,10 @@ import React from 'react'
 import "./Screen.css"
 
 function Screen(props) {
+    let formatted = new Intl.NumberFormat("en");
     return (
         <div className="screen">
-           <p> {props.display} </p>
+           <p> {formatted.format(props.display)} </p>
         </div>
     )
 }
